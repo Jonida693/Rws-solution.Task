@@ -120,3 +120,128 @@
         margin-top: 25px;
 }
 }
+
+
+
+@media  screen and (max-width: 768px) {
+
+.slider-content {
+
+  p.slider-description {
+
+    font-size: 15px;
+ 
+  }
+
+  .name {
+    h4 {
+      font-family: inherit;
+      /* line-height: 1; */
+      font-weight: 500;
+      font-size: 17px;
+    }
+  }
+
+  .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    transform: translate(0, 50%);
+    cursor: pointer;
+    background: #1ed1d4;
+    border: 1px solid transparent;
+
+    left: -22%;
+  }
+
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    transform: translate(0, 50%);
+    cursor: pointer;
+    background: #1ed1d4;
+    border: 1px solid transparent;
+    left: 117%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: "slick";
+    font-size: 41px;
+    line-height: 1;
+    opacity: 0.75;
+    color: white;
+  }
+
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 75;
+  }
+
+  .slick-next:hover {
+    background: #1ed1d4;
+  }
+
+  .slick-prev:hover {
+    background: #1ed1d4;
+  }
+  .slider {
+    justify-content: center;
+
+    .card1 {
+      background-color: #fff;
+      width: 35%;
+      border: box;
+      box-shadow: 10px 10px 6px rgb(237, 238, 237);
+
+      .card-content {
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 30px;
+      }
+
+      .ab {
+        color: gray;
+      }
+    }
+
+    .card2 {
+      background-color: #fff;
+      box-sizing: border-box;
+      width: 35%;
+      border: box;
+
+      box-shadow: 10px 10px 6px rgb(237, 238, 237);
+
+      margin-left: 50px;
+      .card-content {
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 30px;
+      }
+
+      .ab {
+        color: gray;
+      }
+    }
+  }
+
+  .slide-content {
+    display: flex;
+        margin-top: 25px;
+}
+}
+
+
+}
